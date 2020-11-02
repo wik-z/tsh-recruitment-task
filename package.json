@@ -1,0 +1,23 @@
+{
+  "name": "recruitment-task-v3",
+  "version": "1.0.0",
+  "description": "Hey there!",
+  "main": "./server/index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-validator": "^6.6.1",
+    "jsonschema": "^1.4.0",
+    "schema-validator": "^3.3.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.1"
+  }
+}
